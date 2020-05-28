@@ -1,0 +1,29 @@
+body{
+  background-image: url(website.jpg);
+  background-size: 1280px 1024px;
+
+}
+.col{
+  color: white;
+}
+h1{
+  position: relative;
+  top: 280px;
+  left: 250px;
+  text-transform: capitalize;
+}
+.btn-danger{
+  position: relative;
+  top: 650px;
+    left: 510px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: all 1s;
+  padding: 10px;
+}
+.btn-danger:hover{
+  color: black;
+  background: yellow;
+  transform: scale(1.1);
+}
+
